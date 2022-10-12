@@ -26,22 +26,22 @@ var highScores = [
 
 // array of objects containing questions and answers
 var questions = [{
-  question: "Where do I live?  a. Kolkata  b. Mumbai  c. Durgapur",
+  question: "Where do I live?  a. Kolkata  b. Mumbai  c. Durgapur ",
   answer: "c"
 }, {
-  question: "My favorite number is? a. 6  b. 10  c. 7",
+  question: "My favorite number is? a. 6  b. 10  c. 7 ",
   answer: "a"
 },
 {
-  question: "What is my favourite food? a. Maggi  b. Momo  c. Noodles",
+  question: "What is my favourite food? a. Maggi  b. Momo  c. Noodles ",
   answer: "b"
 },
 {
-  question: "What is my favourite book? a. Kite Runner  b. Atomic Habits  c. Sapiens",
+  question: "What is my favourite book? a. Kite Runner  b. Atomic Habits  c. Sapiens ",
   answer: "a"
 },
 {
-  question: "What is my favourite colour? a. Black  b. White  c. Pink",
+  question: "What is my favourite colour? a. Black  b. White  c. Pink ",
   answer: "b"
 }];
 
