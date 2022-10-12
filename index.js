@@ -26,23 +26,23 @@ var highScores = [
 
 // array of objects containing questions and answers
 var questions = [{
-  question: "Where do I live? ",
-  answer: "Kolkata"
+  question: "Where do I live?  a. Kolkata  b. Mumbai  c. Durgapur",
+  answer: "c"
 }, {
-  question: "My favorite number is? ",
-  answer: "6"
+  question: "My favorite number is? a. 6  b. 10  c. 7",
+  answer: "a"
 },
 {
-  question: "What is my favourite food? ",
-  answer: "Momo"
+  question: "What is my favourite food? a. Maggi  b. Momo  c. Noodles",
+  answer: "b"
 },
 {
-  question: "What is my favourite book? ",
-  answer: "Kite Runner"
+  question: "What is my favourite book? a. Kite Runner  b. Atomic Habits  c. Sapiens",
+  answer: "a"
 },
 {
-  question: "What is my favourite colour? ",
-  answer: "White"
+  question: "What is my favourite colour? a. Black  b. White  c. Pink",
+  answer: "b"
 }];
 
 
@@ -50,7 +50,7 @@ var questions = [{
 function greetings() {
   var playerName = readlineSync.question("Hello. May I know your name? ");
 
-  console.log("Welcome " + playerName + " Let's play this fun game to see if you know me.");
+  console.log("Welcome " + playerName + "! Let's play this fun game to see if you know me.");
 }
 
 function play(question, answer) {
